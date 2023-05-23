@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Hello world\n");
+    printf("wocao le  dou\n");
 //    return 0;    // 这行代码可以不用写
 }
