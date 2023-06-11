@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * IF/ELSEµÄÊ¹ÓÃ
+ * IF/ELSEçš„ä½¿ç”¨
  * @return
  */
 int main()
@@ -9,13 +9,13 @@ int main()
 
     int a;
 
-    printf("ÇëÊäÈë0»òÕß1 \n");
+    printf("è¯·è¾“å…¥0æˆ–è€…1 \n");
     scanf("%d",&a);
 
     if (a) {
-        printf("³ÉÁ¢\n");
+        printf("æˆç«‹\n");
     } else{
-        printf("²»³ÉÁ¢\n");
+        printf("ä¸æˆç«‹\n");
     }
 
 

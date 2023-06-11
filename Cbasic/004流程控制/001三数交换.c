@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * ´ÓĞ¡µ½´óÅÅÁĞ data1,data2,data3
- * Ã°ÅİÅÅĞò
+ * ä»å°åˆ°å¤§æ’åˆ— data1,data2,data3
+ * å†’æ³¡æ’åº
  * @return
  */
 int main()
@@ -10,8 +10,8 @@ int main()
     int data1;
     int data2;
     int data3;
-    printf("ÇëÊäÈë3¸öÊı,Ëæ»úÈı¸öÊı,½«´ÓĞ¡µ½´ïÅÅÁĞ:\n");
-//     ÊäÈë´«ÈëµÄÊÇµØÖ·Òª´ø &
+    printf("è¯·è¾“å…¥3ä¸ªæ•°,éšæœºä¸‰ä¸ªæ•°,å°†ä»å°åˆ°è¾¾æ’åˆ—:\n");
+//     è¾“å…¥ä¼ å…¥çš„æ˜¯åœ°å€è¦å¸¦ &
     scanf("%d,%d,%d", &data1, &data2, &data3);
     if(data1 > data2){    // 3 1
         data1 = data1 + data2;   // 4 = 3 + 1

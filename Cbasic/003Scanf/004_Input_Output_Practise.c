@@ -8,18 +8,18 @@ int main()
     char A = 'A';
     char B = 'B';
 
-    // %c 显示一个char
+    // %c 鏄剧ず涓�涓猚har
     printf("%c,%c,%c,%c\n",a,b,A,B);
     printf("a=%d,b=%d,A=%d,B=%d\n",a,b,A,B);
 
-    puts("请输入一个大写字母\n");
-//    & 获取地址
+    puts("璇疯緭鍏ヤ竴涓ぇ鍐欏瓧姣峔n");
+//    & 鑾峰彇鍦板潃
     scanf("%c",&a);
     b = a + 32;
-    printf("你输入的字母对应的小写字母是 %c\n",a+32);
-    printf("你输入的字母对应的小写字母是 %c\n",b);
+    printf("浣犺緭鍏ョ殑瀛楁瘝瀵瑰簲鐨勫皬鍐欏瓧姣嶆槸 %c\n",a+32);
+    printf("浣犺緭鍏ョ殑瀛楁瘝瀵瑰簲鐨勫皬鍐欏瓧姣嶆槸 %c\n",b);
 
-    printf("测试\n");
+    printf("娴嬭瘯\n");
 
     getchar();
 

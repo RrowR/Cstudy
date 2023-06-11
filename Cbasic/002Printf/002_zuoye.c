@@ -4,9 +4,9 @@ int main() {
     int a = 3;
     int b = 9;
 
-    printf("Á½ÊýÖ®ºÍÎª%d\n", a + b);
-    printf("Á½ÊýÖ®²îÎª%d\n", a - b);
-    printf("Á½ÊýÖ®»ýÎª%d\n", a * b);
-    printf("Á½ÊýÏà³ýÎª%f\n", (float) a / b);
+    printf("ä¸¤æ•°ä¹‹å’Œä¸º%d\n", a + b);
+    printf("ä¸¤æ•°ä¹‹å·®ä¸º%d\n", a - b);
+    printf("ä¸¤æ•°ä¹‹ç§¯ä¸º%d\n", a * b);
+    printf("ä¸¤æ•°ç›¸é™¤ä¸º%f\n", (float) a / b);
 
 }
