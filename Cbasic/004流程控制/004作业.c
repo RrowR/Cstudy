@@ -8,7 +8,8 @@ int main() {
 
     char cdata;
 
-    printf("请输入一个字符\n");
+//    printf("请输入一个字符\n");
+    puts("请输入一个字符");        // 和printf一样,自带一个回车
     scanf("%c", &cdata);
 
 //    判断是否是大写字母
