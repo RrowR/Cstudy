@@ -1,28 +1,30 @@
 #include <stdio.h>
+#include <windows.h>
 
 int main()
 {
+    SetConsoleOutputCP(CP_UTF8);
     int a;
-    puts("ÇëÊäÈëÒ»¸ö5ÒÔÄÚµÄÊı×Ö");
+    puts("è¯·è¾“å…¥ä¸€ä¸ª5ä»¥å†…çš„æ•°å­—");
     scanf("%d",&a);
     switch (a) {
         case 1:
-            printf("ÄúÊäÈëµÄÊÇ1\n");
+            printf("æ‚¨è¾“å…¥çš„æ˜¯1\n");
             break;
         case 2:
-            printf("ÄúÊäÈëµÄÊÇ2\n");
+            printf("æ‚¨è¾“å…¥çš„æ˜¯2\n");
             break;
         case 3:
-            printf("ÄúÊäÈëµÄÊÇ3\n");
+            printf("æ‚¨è¾“å…¥çš„æ˜¯3\n");
             break;
         case 4:
-            printf("ÄúÊäÈëµÄÊÇ4\n");
+            printf("æ‚¨è¾“å…¥çš„æ˜¯4\n");
             break;
         case 5:
-            printf("ÄúÊäÈëµÄÊÇ5\n");
+            printf("æ‚¨è¾“å…¥çš„æ˜¯5\n");
             break;
         default:
-            puts("ÄãÊäÈëÁËÆäËûÇé¿ö,Éµ±Æ");
+            puts("ä½ è¾“å…¥äº†å…¶ä»–æƒ…å†µ");
     }
 
 }
