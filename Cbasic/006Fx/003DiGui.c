@@ -13,7 +13,7 @@ int getFirstYears(int times) {
     if (times == 1) {
         age = 10;
     } else {
-//        这里回进行递归,最后是 10 + 2 + 2 + 2 + ...
+//        这里回进行递归,最后 2 + 2 + 2 + ... + 10
         age = getFirstYears(times - 1) + 2;
     }
 
