@@ -7,7 +7,7 @@
 
 double calculateAvg(double array[],int lenth)
 {
-    double sum;
+    double sum = 0;         // 这里必须要先赋一个初值,否则第二次循环会被累加上去
     for (int i = 0; i < lenth; i++) {
         sum += array[i];
     }
