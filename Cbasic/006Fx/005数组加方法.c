@@ -21,5 +21,8 @@ int main()
     int lengh = sizeof(arr)/sizeof(arr[0]);
 
     printf("%d\n", sizeof(arr));
+
     printArr(arr,lengh);
+//    数组在方法里只有地址的概念,所以我这里从首地址开始传也可以
+    printArr(&arr[0],lengh);
 }
