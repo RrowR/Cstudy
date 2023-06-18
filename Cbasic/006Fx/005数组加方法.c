@@ -2,6 +2,7 @@
  * @author: Rrow
  * @date: 2023/6/18 22:54
  * Description: 将数组传到方法里时,要注意传入的数组是一个地址值,方法里无法获取数组长度,需要将数据长度也传过来
+ *              这里设计到值传递和地址传递的问题(这里很像java的基本数据类型和引用数据类型)
  */
 #include <stdio.h>
 
@@ -21,5 +22,8 @@ int main()
     int lengh = sizeof(arr)/sizeof(arr[0]);
 
     printf("%d\n", sizeof(arr));
+
     printArr(arr,lengh);
+//    数组在方法里只有地址的概念,所以我这里从首地址开始传也可以
+    printArr(&arr[0],lengh);
 }
