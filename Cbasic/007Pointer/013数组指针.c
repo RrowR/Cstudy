@@ -23,18 +23,19 @@ int main()
     int (*p2)[3];
     p2 = arr;
 //    printf("=================\n");
-//    printf("p2=%p,p2++=%p\n", p2, ++p2);
+    printf("p2=%p\n", p2);
+    printf("p2++=%p\n", ++p2);          // 偏移了一个数组
     // 遍历数组指针里的值
-    for (int i = 0; i < 2; ++i) {
-        printf("p2[%d]=%p\n", i, p2[i]);
-    }
+//    for (int i = 0; i < 2; ++i) {
+//        printf("p2[%d]=%p\n", i, p2[i]);
+//    }
     printf("=================\n");
     // 遍历二维数组里的每个子数组里的值
-    for (int i = 0; i < 2; ++i) {
-        for (int j = 0; j < 3 ; ++j) {
-            // 这里的p2其实就是一个数组指针
-            printf("p2[%d][%d]=%d\n", i, j, p2[i][j]);
-        }
-    }
+//    for (int i = 0; i < 2; ++i) {
+//        for (int j = 0; j < 3 ; ++j) {
+//            // 这里的p2其实就是一个数组指针
+//            printf("p2[%d][%d]=%d\n", i, j, p2[i][j]);
+//        }
+//    }
 
 }
