@@ -15,9 +15,18 @@ int main()
     printf("%p\n", &arr[0][1]);
     printf("%p\n", &arr[1][0]);
 //    父数组+1偏移子数组长度大小，子数组+1偏移子数组元素大小
+    printf("%p\n", (*(p+1)));
+    printf("%p a\n", p+1);
+    printf("%p a\n", p+2);
+    printf("%d a2\n", p+1);
+    printf("%d a2\n", p+2);
     printf("%p\n", (*(p+1)+1));
-//    想通过指针操作子数组长度，必须先对父数组进行*取值，再进行偏移
-    printf("%p\n", p+1);
+//    获取
+    printf("%d\n", *((p+1))[0]);
+    printf("%d\n", (*(p+1))[0]);
+    printf("%d\n", *((p+1)[0]));
+
+
 
 
 }
