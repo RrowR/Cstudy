@@ -37,6 +37,7 @@ int main() {
     scanf("%d", &data2);
     switch (input) {
         case 1:
+//            函数指针指向doPlus函数
             pfunc = doPlus;
             break;
         case 2:
