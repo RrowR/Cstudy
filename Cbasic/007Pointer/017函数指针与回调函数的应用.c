@@ -31,7 +31,7 @@ int main() {
     int res;
 //    定义一个函数指针,函数指针的参数名可以不写
     int (*pfunc)(int , int );
-    puts("请输入一个1(加法)2(减法)3(乘法),并输入对应2个数的值data1,data2");
+    puts("pls input a number(plus)2(sub)3(mul),and result of 2 num is : data1,data2");
     scanf("%d", &input);
     scanf("%d", &data1);
     scanf("%d", &data2);
