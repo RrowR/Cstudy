@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
 int main()
 {
     int a = 10;
@@ -15,6 +13,5 @@ int main()
     for (int i = 0; i < 4; i++)
     {
         printf("%d ", *p[i]);
-        
     }
 }
