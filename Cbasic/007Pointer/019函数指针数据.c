@@ -23,6 +23,8 @@ int main()
     int a = 20;
     int b = 10;
     int ret;
+
+    // 初始化函数指针
     int (*pfunc[2])(int,int) = {sum,plus};
 
     for (size_t i = 0; i < 2; i++)
