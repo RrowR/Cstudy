@@ -25,6 +25,7 @@ int main()
     int ret;
 
     // 初始化函数指针
+    // 定义了一个函数指针数组
     int (*pfunc[2])(int,int) = {sum,plus};
 
     for (size_t i = 0; i < 2; i++)
