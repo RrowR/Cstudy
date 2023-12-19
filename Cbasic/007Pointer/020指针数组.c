@@ -11,7 +11,29 @@ int* getPosPerson(int pos,int (*pstu)[4])
     return p;
 }
 
+// 找到成绩小于 60 分的学生
+void getLess60ScoreStudent(int (*pstu)[4])
+{
+    int *p;
+    for (size_t i = 0; i < 3; i++)
+    {
+        p = (int *)(pstu + i);
+        for (size_t j = 0; j < 4; j++)
+        {
+            int res = *p++;
+            if (res < 60)
+            {
+                printf("不及格的学生课程以及id为(%d,%d) \n",i,j);
+            }
+            
+        }
+        
+    }
+    
+}
 
+
+// 找出不及格的课程的学生有多少
 int main()
 {
     int studentScores[3][4] = {
@@ -21,15 +43,19 @@ int main()
     };
 
 
-    int *ppos;
-    int pos;
-    printf("请输入你要输入的学生号数:0,1,2\n");
-    scanf("%d",&pos);
+    // int *ppos;
+    // int pos;
+    // printf("请输入你要输入的学生号数:0,1,2\n");
+    // scanf("%d",&pos);
 
-    ppos = getPosPerson(pos,studentScores);
-    for(int i = 0; i < 4 ; i++){
-        printf("%d ",*ppos++);
-    }
+    // ppos = getPosPerson(pos,studentScores);
+    // for(int i = 0; i < 4 ; i++){
+    //     printf("%d ",*ppos++);
+    // }
+
+    getLess60ScoreStudent(studentScores);
+
+    
 
 
 }

@@ -35,3 +35,4 @@
 *.sh
 *.vscode
 *.idea
+*.output
